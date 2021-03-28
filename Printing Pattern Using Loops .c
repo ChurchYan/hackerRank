@@ -20,8 +20,7 @@ int main(){
         for (int y = 0; y <= n2; ++y) {
             int absx = abs(x-n1);
             int absy = abs(y-n1);
-            int max_num = max(absx,absy);
-            printf("%d  ",1+max_num);
+            printf("%d  ",1+max(absx,absy));
         }
         printf("\n");
     }
